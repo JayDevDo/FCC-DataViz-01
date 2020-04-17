@@ -1,0 +1,54 @@
+<html>
+<head>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<style>
+    body{
+        width: 95%;
+        display flex;
+        flex-flow: column wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    div{
+        border: 1px solid red;
+    }
+
+    #svgContainer{
+        display flex;
+        flex-flow: row wrap;
+    }
+
+    #theChart{
+        font-family: "Verdana";
+        overflow-x: scroll;
+        order: 1;
+    }
+
+    #ttBar{
+        order: 2;
+    }
+
+    .axis {
+        color: yellow;
+        fill: none;
+        stroke: #ffffff;
+        stroke-linecap: round;
+    }
+
+    .bar:hover{
+            fill: red;
+        }
+
+</style>
+<body id="app">
+<h1 id="title">US GDB 1947-1 to 2015-07</h1>
+<div id="svgContainer"></div>
+</body>
+</div>
+</body>
+<script src="FCC-4-1.js"></script>
+</html>
